@@ -12,8 +12,8 @@ const Profile=()=>{
             <p>Guidhali School of Music and Drama</p>
             </div>
             <div className={profileStyle.options}>
-                <p>Nr Upload</p>
-                <p>My Audios</p>
+                <a href="#">Nr Upload</a>
+                <a href="#">My Audios</a>
             </div>
         </div>
     );
