@@ -10,7 +10,7 @@
     font-size: 20px;
     text-align: center;
 }
-.profileContainer p{
+.description p{
     color: #9CB1D8;
     font-weight: regular;
     font-size: 16px;
@@ -27,6 +27,9 @@
     height: 100%;
 }
 
-.description{
-
+.options{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }

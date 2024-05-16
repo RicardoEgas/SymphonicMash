@@ -11,6 +11,10 @@ const Profile=()=>{
             <h3>Purnima Khan</h3>
             <p>Guidhali School of Music and Drama</p>
             </div>
+            <div className={profileStyle.options}>
+                <p>Nr Upload</p>
+                <p>My Audios</p>
+            </div>
         </div>
     );
 };
