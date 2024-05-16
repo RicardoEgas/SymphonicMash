@@ -1,7 +1,15 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope,faArrowLeft,faEllipsisV } from '@fortawesome/free-solid-svg-icons'
+
+
+
 const Navbar = () => {
     return (
       <div>
-        <h1> Navbar</h1>
+        <FontAwesomeIcon icon={faArrowLeft} />
+        <h1> Navbar <FontAwesomeIcon icon={faEnvelope} /></h1>
+        <FontAwesomeIcon icon={faEllipsisV} />
+       
       </div>
     )
   }
