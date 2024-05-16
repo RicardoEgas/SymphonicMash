@@ -68,16 +68,30 @@ gap: 8px;
     border-radius: 50%;
     height: 1.4rem;
     width: 20px;
+    color: #0eb29a;
     background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.audioItem div div button{
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+    color: #0eb29a;
 }
 
 .audioItemDeleteButton{
     color: red;
     border: transparent;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .audioItemUpdateButton{
     border: 1px solid green;
     color: green;
+    cursor: pointer;
+    padding: 0.2rem;
 }
