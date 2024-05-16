@@ -1,7 +1,9 @@
+import { useNavigate } from 'react-router-dom';
 import profileStyle from '../assets/css/profile.module.css';
 import user from '../assets/img/user.svg';
 
 const Profile=()=>{
+    const navegate=useNavigate();
     return(
         <div className={profileStyle.profileContainer}>
             <div className={profileStyle.avatarContainer}>
@@ -13,7 +15,11 @@ const Profile=()=>{
             </div>
             <div className={profileStyle.options}>
                 <a href="#">Nr Upload</a>
-                <a href="#">My Audios</a>
+                <a href="#" onClick={(el)=>{
+                    el.preventDefault();
+                    navegate('/profile/audio');                  
+                }}>
+                    My Audios</a>
             </div>
         </div>
     );
