@@ -10,6 +10,20 @@
     font-size: 20px;
     text-align: center;
 }
+.description{
+    margin-top: 15px;
+}
+.role{
+    margin-top: 8px;
+}
+
+.audioContainer{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
 .description p{
     color: #9CB1D8;
     font-weight: regular;
@@ -35,7 +49,7 @@
 }
 
 .audioFileContainer{
-    margin-top: 40px;
+    /* margin-top: 15px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,11 +71,11 @@ background-color: #0eb29a;
 border-radius: 10px;
 display: flex;
 align-items: center;
-font-size: 12px;
 color: white;
-font-weight: 700;
 gap: 8px;
 }
+
+
 
 .audioItem div div{
     border: 2px solid #939598;
@@ -73,6 +87,11 @@ gap: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.audioItem div p{
+    font-weight: 700;
+    font-size: 12px;
+    color:white;
 }
 
 .audioItem div div button{

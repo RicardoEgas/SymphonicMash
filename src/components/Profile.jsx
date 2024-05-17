@@ -11,7 +11,7 @@ const Profile=()=>{
             </div>
             <div className={profileStyle.description}>
             <h3>Purnima Khan</h3>
-            <p>Guidhali School of Music and Drama</p>
+            <p className={profileStyle.role}>Guidhali School of Music and Drama</p>
             </div>
             <div className={profileStyle.options}>
                 <a href="#">Nr Upload</a>
