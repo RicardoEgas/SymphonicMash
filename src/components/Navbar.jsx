@@ -1,8 +1,15 @@
+import navStyle from '../assets/css/nav.module.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowLeft,faEllipsisV } from '@fortawesome/free-solid-svg-icons'
+
+
+
 const Navbar = () => {
     return (
-      <div>
-        <h1> Navbar</h1>
-      </div>
+      <nav className={navStyle.nav}>
+        <FontAwesomeIcon icon={faArrowLeft} />
+        <FontAwesomeIcon icon={faEllipsisV} />
+      </nav>
     )
   }
   
